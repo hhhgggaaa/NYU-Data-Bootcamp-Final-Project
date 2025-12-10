@@ -1,2 +1,3 @@
 # NYU-Data-Bootcamp-Final-Project
-My final project for Data Bootcamp class.
+This project builds and evaluates predictive models for the monthly U.S. fuel oil Producer Price Index (PPI) using a combination of classical time-series methods and machine learning. Forecasting approaches include naive benchmarks, SARIMA, Exponential Smoothing (ETS), a simple classical ensemble, and a two-stage hybrid framework that applies XGBoost to model ETS residuals using macroeconomic indicators such as consumer price indices, crude oil spot prices, and industrial production. Model performance is assessed using mean absolute percentage error (MAPE), with results showing that the hybrid ETS + XGBoost model delivers the highest forecasting accuracy, outperforming standalone classical models and ensemble benchmarks by capturing both the core seasonal structure of PPI and nonlinear relationships driven by external economic conditions.
+
